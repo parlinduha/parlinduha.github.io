@@ -1,0 +1,66 @@
+.body{
+    background-image: url("../img/bg.png");
+}
+.card{
+    border: 0px;
+}
+.card-box{
+    -webkit-box-shadow: 0px 1px 14px 0px rgba(0,0,0,0.28);
+    box-shadow: 0px 1px 14px 0px rgba(0,0,0,0.28);
+}
+.card-header{
+    border-color:white;
+    background-color:white;
+    border: 0px;
+}
+
+.img-profile{
+    width:90%;
+    margin-left: 5%;
+}
+
+.img-profile img{
+    align-content: center !important;
+    border-radius: 90px 0px 90px 0px;
+    width: 100%;
+    -webkit-border-radius: 40px !important;
+}
+.container{
+    margin-top: 20px;
+}
+.
+.kiri{
+    background-color:white;
+    border-radius:20;
+    -webkit-border-radius:20;
+    -moz-border-radius:20;
+    -ms-border-radius:20;
+    -o-border-radius:20;
+}
+.kanan{
+     -webkit-box-shadow: 0px 1px 14px 0px rgba(0,0,0,0.28);
+    box-shadow: 0px 1px 14px 0px rgba(0,0,0,0.28);
+}
+
+.nav-tabs{
+    margin-left: 20px;
+}
+
+
+.nav-item{
+    color:black
+}
+.title{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.about-text{
+    margin-left: 10px;
+    text-align: justify;
+}
+.port-item{
+    border:2px;
+    display:flex;
+    width:100%;
+}
