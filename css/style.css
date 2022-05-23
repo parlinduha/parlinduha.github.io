@@ -19,11 +19,22 @@
     margin-left: 5%;
 }
 
+
 .img-profile img{
     align-content: center !important;
-    border-radius: 90px 0px 90px 0px;
+    border-radius: 90px 40px 90px 40px;
     width: 100%;
-    -webkit-border-radius: 40px !important;
+    -webkit-border-radius: 90px 40px 90px 40px;
+    border: 1px solid  rgb(141, 141, 141);
+    opacity: 0.7;
+    -moz-border-radius: 90px 40px 90px 40px;
+    -ms-border-radius: 90px 40px 90px 40px;
+    -o-border-radius: 90px 40px 90px 40px;
+}
+
+.media-sosial >li >a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
 }
 .container{
     margin-top: 20px;
@@ -42,13 +53,25 @@
     box-shadow: 0px 1px 14px 0px rgba(0,0,0,0.28);
 }
 
-.nav-tabs{
+.menu-tab{
     margin-left: 20px;
+    margin-top: 40px;
+}
+.menu-tab > li{
+    margin-bottom: 10px;
 }
 
-
 .nav-item{
-    color:black
+    background-color:rgb(255, 255, 255)
+}
+.nav-item > a:active{
+    background-color:black
+}
+.nav-item > a:hover{
+    background-color: rgb(189, 189, 189);
+}
+.nav-item > a:visited{
+    background-color: rgb(189, 189, 189);
 }
 .title{
     text-align: left;
@@ -63,4 +86,59 @@
     border:2px;
     display:flex;
     width:100%;
+}
+
+/* Skills */
+.card ul li{
+    text-align: left;
+}
+.card-subtitle{
+    text-align: left;
+    margin-left: 10px;
+}
+
+/* contact */
+.contact{
+    margin-bottom: 20px;
+    text-align: left;
+}
+.info{
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+ul.info-item li{
+    list-style-type: none;
+    text-align: left;
+}
+
+/* footer */
+.footer{
+    background-color: rgb(3, 3, 3);
+    height: 50px;
+}
+.copyright{
+    color: whitesmoke;
+    margin-top: 10px;
+}
+.footer-i{
+    color: white;
+}
+.footer-i:link{
+    color: white;
+    text-decoration: none;
+}
+.footer-i:hover{
+    color: white;
+}
+
+.Services{
+    display: flex;
+}
+
+/* portfolio */
+.portfolio{
+    /* border: 1px solid #ccc; */
+    margin-top: 20px;
 }
