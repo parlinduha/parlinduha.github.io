@@ -35,6 +35,7 @@
 .media-sosial >li >a {
     color:rgb(0, 0, 0);
     text-decoration: none;
+    margin-left: 120px;
 }
 .container{
     margin-top: 20px;
@@ -117,6 +118,7 @@ ul.info-item li{
 .footer{
     background-color: rgb(3, 3, 3);
     height: 50px;
+    margin-top: 50px;
 }
 .copyright{
     color: whitesmoke;
